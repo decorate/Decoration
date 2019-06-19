@@ -12,9 +12,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Decorate\\DecorateCommands\\": "DecorateCommands/",
-            "Decorate\\DecorateExtensions\\": "DecorateExtensions/",
-            "Decorate\\DecorateServices\\": "DecorateServices/"
+            "Decorate\\Decoration\\DecorateCommands\\": "DecorateCommands/",
+            "Decorate\\Decoration\\DecorateExtensions\\": "DecorateExtensions/",
+            "Decorate\\Decoration\\DecorateServices\\": "DecorateServices/"
         }
     },
     "scripts": {

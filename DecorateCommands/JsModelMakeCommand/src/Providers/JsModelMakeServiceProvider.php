@@ -1,9 +1,9 @@
 <?php
 
-namespace DecorateCommands\JsModelMakeCommand\Providers;
+namespace Decorate\Decoration\DecorateCommands\JsModelMakeCommand\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use DecorateCommands\JsModelMakeCommand\JsModelMakeCommand;
+use Decorate\Decoration\DecorateCommands\JsModelMakeCommand\JsModelMakeCommand;
 
 class JsModelMakeServiceProvider extends ServiceProvider
 {
