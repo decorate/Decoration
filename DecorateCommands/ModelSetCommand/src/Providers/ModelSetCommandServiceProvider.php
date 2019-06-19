@@ -1,11 +1,11 @@
 <?php
 
-namespace DecorateCommands\JsModelMakeCommand\Providers;
+namespace DecorateCommands\ModelSetCommand\Providers;
 
+use DecorateCommands\ModelSetCommand\ModelSetCommand;
 use Illuminate\Support\ServiceProvider;
-use DecorateCommands\JsModelMakeCommand\JsModelMakeCommand;
 
-class JsModelMakeServiceProvider extends ServiceProvider
+class ModelSetCommandServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -27,7 +27,7 @@ class JsModelMakeServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             //Artisanコマンド　登録
             $this->commands([
-                JsModelMakeCommand::class
+                ModelSetCommand::class
             ]);
         }
     }

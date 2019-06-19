@@ -13,15 +13,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Decorate\\DecorateCommands\\JsModelMakeCommand\\": "src/",
-            "Decorate\\DecorateCommands\\JsModelMakeCommand\\Providers\\": "src/Providers/",
+            "DecorateCommands\\JsModelMakeCommand\\": "src/",
+            "DecorateCommands\\JsModelMakeCommand\\Providers\\": "src/Providers/",
             "Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Decorate\\DecorateCommands\\JsModelMakeCommand\\Providers\\JsModelMakeServiceProvider"
+                "DecorateCommands\\JsModelMakeCommand\\Providers\\JsModelMakeServiceProvider"
             ]
         }
     },
