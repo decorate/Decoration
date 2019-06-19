@@ -12,15 +12,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Decorate\\Decoration\\DecorateCommands\\": "DecorateCommands/",
-            "Decorate\\Decoration\\DecorateExtensions\\": "DecorateExtensions/",
-            "Decorate\\Decoration\\DecorateServices\\": "DecorateServices/"
+            "Decorate\\DecorateCommands\\": "DecorateCommands/",
+            "Decorate\\DecorateExtensions\\": "DecorateExtensions/",
+            "Decorate\\DecorateServices\\": "DecorateServices/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Decorate\\Decoration\\DecorateCommands\\JsModelMakeCommand\\Providers\\JsModelMakeServiceProvider"
+                "Decorate\\DecorateCommands\\JsModelMakeCommand\\Providers\\JsModelMakeServiceProvider"
             ]
         }
     },
