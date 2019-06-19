@@ -14,7 +14,16 @@
         "psr-4": {
             "Decorate\\Decoration\\DecorateCommands\\": "DecorateCommands/",
             "Decorate\\Decoration\\DecorateExtensions\\": "DecorateExtensions/",
-            "Decorate\\Decoration\\DecorateServices\\": "DecorateServices/"
+            "Decorate\\Decoration\\DecorateServices\\": "DecorateServices/",
+            "Decorate\\Decoration\\DecorateCommands\\JsModelMakeCommand\\": "DecorateCommands/JsModelMakeCommand/src/",
+            "Decorate\\Decoration\\DecorateCommands\\JsModelMakeCommand\\Providers\\": "DecorateCommands/JsModelMakeCommand/src//Providers/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Decorate\\Decoration\\DecorateCommands\\JsModelMakeCommand\\Providers\\JsModelMakeServiceProvider"
+            ]
         }
     },
     "scripts": {
