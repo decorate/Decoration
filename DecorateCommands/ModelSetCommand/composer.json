@@ -13,15 +13,15 @@
     },
     "autoload": {
         "psr-4": {
-            "DecorateCommands\\ModelSetCommand": "src/",
-            "DecorateCommands\\ModelSetCommand\\Providers\\": "src/Providers",
+            "Decorate\\Commands\\ModelSetCommand": "src/",
+            "Decorate\\Commands\\ModelSetCommand\\Providers\\": "src/Providers",
             "Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DecorateCommands\\ModelSetCommand\\Providers\\ModelSetCommandServiceProvider"
+                "Decorate\\Commands\\ModelSetCommand\\Providers\\ModelSetCommandServiceProvider"
             ]
         }
     },

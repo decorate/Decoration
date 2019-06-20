@@ -1,8 +1,8 @@
 <?php
 
-namespace DecorateCommands\ModelSetCommand\Providers;
+namespace Decorate\Commands\ModelSetCommand\Providers;
 
-use DecorateCommands\ModelSetCommand\ModelSetCommand;
+use Decorate\Commands\ModelSetCommand\ModelSetCommand;
 use Illuminate\Support\ServiceProvider;
 
 class ModelSetCommandServiceProvider extends ServiceProvider

@@ -1,6 +1,6 @@
 <?php
 
-namespace DecorateCommands\ModelSetCommand;
+namespace Decorate\Commands\ModelSetCommand;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Migrations\Migrator;
