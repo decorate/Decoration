@@ -1,5 +1,5 @@
 {
-    "name": "decorate/image-upload",
+    "name": "decorate-services/image-upload",
     "license": "MIT",
     "description": "The image upload service",
     "authors": [
